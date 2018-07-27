@@ -14,6 +14,7 @@
 		CDCF6454210BB6E100C294AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCF6452210BB6E100C294AD /* LaunchScreen.storyboard */; };
 		CDCF645F210BB6E200C294AD /* Lyft_JukeboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF645E210BB6E200C294AD /* Lyft_JukeboxTests.swift */; };
 		CDCF646A210BB6E200C294AD /* Lyft_JukeboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF6469210BB6E200C294AD /* Lyft_JukeboxUITests.swift */; };
+		CDCF6479210BB73C00C294AD /* SpotifyAppRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCF6478210BB73C00C294AD /* SpotifyAppRemote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		CDCF6465210BB6E200C294AD /* Lyft JukeboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lyft JukeboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCF6469210BB6E200C294AD /* Lyft_JukeboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyft_JukeboxUITests.swift; sourceTree = "<group>"; };
 		CDCF646B210BB6E200C294AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCF6478210BB73C00C294AD /* SpotifyAppRemote.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAppRemote.framework; sourceTree = "<group>"; };
+		CDCF647A210BB94B00C294AD /* LyftJukebox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LyftJukebox-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCF6479210BB73C00C294AD /* SpotifyAppRemote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +85,7 @@
 				CDCF645D210BB6E200C294AD /* Lyft JukeboxTests */,
 				CDCF6468210BB6E200C294AD /* Lyft JukeboxUITests */,
 				CDCF6447210BB6E000C294AD /* Products */,
+				CDCF6477210BB73C00C294AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +108,7 @@
 				CDCF6450210BB6E100C294AD /* Assets.xcassets */,
 				CDCF6452210BB6E100C294AD /* LaunchScreen.storyboard */,
 				CDCF6455210BB6E200C294AD /* Info.plist */,
+				CDCF647A210BB94B00C294AD /* LyftJukebox-Bridging-Header.h */,
 			);
 			path = "Lyft Jukebox";
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				CDCF646B210BB6E200C294AD /* Info.plist */,
 			);
 			path = "Lyft JukeboxUITests";
+			sourceTree = "<group>";
+		};
+		CDCF6477210BB73C00C294AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDCF6478210BB73C00C294AD /* SpotifyAppRemote.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -431,13 +445,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Lyft Jukebox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "ksikka.Lyft-Jukebox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ksikka/Documents/Lyft Jukebox/Lyft Jukebox/Lyft Jukebox/LyftJukeBox-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,13 +469,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Lyft Jukebox/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "ksikka.Lyft-Jukebox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ksikka/Documents/Lyft Jukebox/Lyft Jukebox/Lyft Jukebox/LyftJukeBox-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
