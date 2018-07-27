@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20D9F7EC1D36587D002ED9A0 /* SpotifyAppRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F9740A1CAD62EC0036411D /* SpotifyAppRemote.framework */; };
 		2BAD4B251CFD66290033DE75 /* My-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAD4B241CFD66290033DE75 /* My-Extensions.swift */; };
 		998FF9BE1D3E54AC003E339B /* ConnectionStatusIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998FF9BD1D3E54AC003E339B /* ConnectionStatusIndicatorView.swift */; };
 		99A0FFE41D38F9B600A90453 /* PlaybackButtonGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A0FFE31D38F9B600A90453 /* PlaybackButtonGraphics.swift */; };
+		C84E6601210BD1750059619C /* SpotifyAppRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84E6600210BD1750059619C /* SpotifyAppRemote.framework */; };
+		C84E6603210BD59C0059619C /* testimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C84E6602210BD59B0059619C /* testimage.png */; };
 		F4F973F01CAD60320036411D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F973EF1CAD60320036411D /* AppDelegate.swift */; };
 		F4F973F21CAD60320036411D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F973F11CAD60320036411D /* ViewController.swift */; };
 		F4F973F51CAD60320036411D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F973F31CAD60320036411D /* Main.storyboard */; };
@@ -25,6 +26,8 @@
 		2BAD4B241CFD66290033DE75 /* My-Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "My-Extensions.swift"; sourceTree = "<group>"; };
 		998FF9BD1D3E54AC003E339B /* ConnectionStatusIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionStatusIndicatorView.swift; sourceTree = "<group>"; };
 		99A0FFE31D38F9B600A90453 /* PlaybackButtonGraphics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackButtonGraphics.swift; sourceTree = "<group>"; };
+		C84E6600210BD1750059619C /* SpotifyAppRemote.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyAppRemote.framework; path = NowPlayingView/SpotifyAppRemote.framework; sourceTree = "<group>"; };
+		C84E6602210BD59B0059619C /* testimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testimage.png; sourceTree = "<group>"; };
 		F4F973EC1CAD60320036411D /* NowPlayingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NowPlayingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F973EF1CAD60320036411D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4F973F11CAD60320036411D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,7 +37,6 @@
 		F4F973FB1CAD60320036411D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F974041CAD60C60036411D /* host.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = host.entitlements; sourceTree = "<group>"; };
 		F4F974081CAD62D40036411D /* NowPlayingView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NowPlayingView-Bridging-Header.h"; sourceTree = "<group>"; };
-		F4F9740A1CAD62EC0036411D /* SpotifyAppRemote.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyAppRemote.framework; path = ../../SpotifyAppRemote.framework; sourceTree = "<group>"; };
 		F6EB42E01D2BB01100F57322 /* ContentItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentItemCell.swift; sourceTree = "<group>"; };
 		F6EB42E21D2BB0D800F57322 /* ContentCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D9F7EC1D36587D002ED9A0 /* SpotifyAppRemote.framework in Frameworks */,
+				C84E6601210BD1750059619C /* SpotifyAppRemote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 		F4F973EE1CAD60320036411D /* NowPlayingView */ = {
 			isa = PBXGroup;
 			children = (
+				C84E6602210BD59B0059619C /* testimage.png */,
 				F4F973EF1CAD60320036411D /* AppDelegate.swift */,
 				F4F973F11CAD60320036411D /* ViewController.swift */,
 				F6EB42E01D2BB01100F57322 /* ContentItemCell.swift */,
@@ -91,7 +94,7 @@
 		F4F974011CAD60580036411D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F4F9740A1CAD62EC0036411D /* SpotifyAppRemote.framework */,
+				C84E6600210BD1750059619C /* SpotifyAppRemote.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,7 +131,7 @@
 				TargetAttributes = {
 					F4F973EB1CAD60320036411D = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = ZH828SZK89;
+						DevelopmentTeam = QTNP244GYS;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -168,6 +171,7 @@
 				F4F973FA1CAD60320036411D /* LaunchScreen.storyboard in Resources */,
 				F4F974051CAD60C60036411D /* host.entitlements in Resources */,
 				F4F973F71CAD60320036411D /* Assets.xcassets in Resources */,
+				C84E6603210BD59C0059619C /* testimage.png in Resources */,
 				F4F973F51CAD60320036411D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,11 +332,15 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZH828SZK89;
+				DEVELOPMENT_TEAM = QTNP244GYS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NowPlayingView",
+				);
 				INFOPLIST_FILE = NowPlayingView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lyftjukebox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyftjukebox.132;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "NowPlayingView/NowPlayingView-Bridging-Header.h";
@@ -348,11 +356,15 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZH828SZK89;
+				DEVELOPMENT_TEAM = QTNP244GYS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NowPlayingView",
+				);
 				INFOPLIST_FILE = NowPlayingView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lyftjukebox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyftjukebox.132;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "NowPlayingView/NowPlayingView-Bridging-Header.h";

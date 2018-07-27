@@ -17,6 +17,11 @@ class ViewController: UIViewController,
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        backgroundImage.image = UIImage(named: "testimage.png")
+        backgroundImage.contentMode = UIViewContentMode.scaleAspectFill
+        self.view.insertSubview(backgroundImage, at: 0)
+        
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: connectionIndicatorView)
         connectionIndicatorView.frame = CGRect(origin: CGPoint(), size: CGSize(width: 20,height: 20))
 
