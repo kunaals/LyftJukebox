@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDCF644A210BB6E000C294AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF6449210BB6E000C294AD /* AppDelegate.swift */; };
+		CDCF644C210BB6E000C294AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF644B210BB6E000C294AD /* ViewController.swift */; };
+		CDCF644F210BB6E000C294AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCF644D210BB6E000C294AD /* Main.storyboard */; };
+		CDCF6451210BB6E100C294AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCF6450210BB6E100C294AD /* Assets.xcassets */; };
+		CDCF6454210BB6E100C294AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCF6452210BB6E100C294AD /* LaunchScreen.storyboard */; };
+		CDCF645F210BB6E200C294AD /* Lyft_JukeboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF645E210BB6E200C294AD /* Lyft_JukeboxTests.swift */; };
+		CDCF646A210BB6E200C294AD /* Lyft_JukeboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCF6469210BB6E200C294AD /* Lyft_JukeboxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDCF645B210BB6E200C294AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDCF643E210BB6E000C294AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDCF6445210BB6E000C294AD;
+			remoteInfo = "Lyft Jukebox";
+		};
+		CDCF6466210BB6E200C294AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDCF643E210BB6E000C294AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDCF6445210BB6E000C294AD;
+			remoteInfo = "Lyft Jukebox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDCF6446210BB6E000C294AD /* Lyft Jukebox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lyft Jukebox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCF6449210BB6E000C294AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDCF644B210BB6E000C294AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDCF644E210BB6E000C294AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDCF6450210BB6E100C294AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDCF6453210BB6E100C294AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDCF6455210BB6E200C294AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCF645A210BB6E200C294AD /* Lyft JukeboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lyft JukeboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCF645E210BB6E200C294AD /* Lyft_JukeboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyft_JukeboxTests.swift; sourceTree = "<group>"; };
+		CDCF6460210BB6E200C294AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCF6465210BB6E200C294AD /* Lyft JukeboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lyft JukeboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCF6469210BB6E200C294AD /* Lyft_JukeboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyft_JukeboxUITests.swift; sourceTree = "<group>"; };
+		CDCF646B210BB6E200C294AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDCF6443210BB6E000C294AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCF6457210BB6E200C294AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCF6462210BB6E200C294AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDCF643D210BB6E000C294AD = {
+			isa = PBXGroup;
+			children = (
+				CDCF6448210BB6E000C294AD /* Lyft Jukebox */,
+				CDCF645D210BB6E200C294AD /* Lyft JukeboxTests */,
+				CDCF6468210BB6E200C294AD /* Lyft JukeboxUITests */,
+				CDCF6447210BB6E000C294AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDCF6447210BB6E000C294AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDCF6446210BB6E000C294AD /* Lyft Jukebox.app */,
+				CDCF645A210BB6E200C294AD /* Lyft JukeboxTests.xctest */,
+				CDCF6465210BB6E200C294AD /* Lyft JukeboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDCF6448210BB6E000C294AD /* Lyft Jukebox */ = {
+			isa = PBXGroup;
+			children = (
+				CDCF6449210BB6E000C294AD /* AppDelegate.swift */,
+				CDCF644B210BB6E000C294AD /* ViewController.swift */,
+				CDCF644D210BB6E000C294AD /* Main.storyboard */,
+				CDCF6450210BB6E100C294AD /* Assets.xcassets */,
+				CDCF6452210BB6E100C294AD /* LaunchScreen.storyboard */,
+				CDCF6455210BB6E200C294AD /* Info.plist */,
+			);
+			path = "Lyft Jukebox";
+			sourceTree = "<group>";
+		};
+		CDCF645D210BB6E200C294AD /* Lyft JukeboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDCF645E210BB6E200C294AD /* Lyft_JukeboxTests.swift */,
+				CDCF6460210BB6E200C294AD /* Info.plist */,
+			);
+			path = "Lyft JukeboxTests";
+			sourceTree = "<group>";
+		};
+		CDCF6468210BB6E200C294AD /* Lyft JukeboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDCF6469210BB6E200C294AD /* Lyft_JukeboxUITests.swift */,
+				CDCF646B210BB6E200C294AD /* Info.plist */,
+			);
+			path = "Lyft JukeboxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDCF6445210BB6E000C294AD /* Lyft Jukebox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCF646E210BB6E200C294AD /* Build configuration list for PBXNativeTarget "Lyft Jukebox" */;
+			buildPhases = (
+				CDCF6442210BB6E000C294AD /* Sources */,
+				CDCF6443210BB6E000C294AD /* Frameworks */,
+				CDCF6444210BB6E000C294AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lyft Jukebox";
+			productName = "Lyft Jukebox";
+			productReference = CDCF6446210BB6E000C294AD /* Lyft Jukebox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDCF6459210BB6E200C294AD /* Lyft JukeboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCF6471210BB6E200C294AD /* Build configuration list for PBXNativeTarget "Lyft JukeboxTests" */;
+			buildPhases = (
+				CDCF6456210BB6E200C294AD /* Sources */,
+				CDCF6457210BB6E200C294AD /* Frameworks */,
+				CDCF6458210BB6E200C294AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDCF645C210BB6E200C294AD /* PBXTargetDependency */,
+			);
+			name = "Lyft JukeboxTests";
+			productName = "Lyft JukeboxTests";
+			productReference = CDCF645A210BB6E200C294AD /* Lyft JukeboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDCF6464210BB6E200C294AD /* Lyft JukeboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCF6474210BB6E200C294AD /* Build configuration list for PBXNativeTarget "Lyft JukeboxUITests" */;
+			buildPhases = (
+				CDCF6461210BB6E200C294AD /* Sources */,
+				CDCF6462210BB6E200C294AD /* Frameworks */,
+				CDCF6463210BB6E200C294AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDCF6467210BB6E200C294AD /* PBXTargetDependency */,
+			);
+			name = "Lyft JukeboxUITests";
+			productName = "Lyft JukeboxUITests";
+			productReference = CDCF6465210BB6E200C294AD /* Lyft JukeboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDCF643E210BB6E000C294AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kunaal Sikka";
+				TargetAttributes = {
+					CDCF6445210BB6E000C294AD = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CDCF6459210BB6E200C294AD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CDCF6445210BB6E000C294AD;
+					};
+					CDCF6464210BB6E200C294AD = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CDCF6445210BB6E000C294AD;
+					};
+				};
+			};
+			buildConfigurationList = CDCF6441210BB6E000C294AD /* Build configuration list for PBXProject "Lyft Jukebox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDCF643D210BB6E000C294AD;
+			productRefGroup = CDCF6447210BB6E000C294AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDCF6445210BB6E000C294AD /* Lyft Jukebox */,
+				CDCF6459210BB6E200C294AD /* Lyft JukeboxTests */,
+				CDCF6464210BB6E200C294AD /* Lyft JukeboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDCF6444210BB6E000C294AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCF6454210BB6E100C294AD /* LaunchScreen.storyboard in Resources */,
+				CDCF6451210BB6E100C294AD /* Assets.xcassets in Resources */,
+				CDCF644F210BB6E000C294AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCF6458210BB6E200C294AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCF6463210BB6E200C294AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDCF6442210BB6E000C294AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCF644C210BB6E000C294AD /* ViewController.swift in Sources */,
+				CDCF644A210BB6E000C294AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCF6456210BB6E200C294AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCF645F210BB6E200C294AD /* Lyft_JukeboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCF6461210BB6E200C294AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCF646A210BB6E200C294AD /* Lyft_JukeboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDCF645C210BB6E200C294AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDCF6445210BB6E000C294AD /* Lyft Jukebox */;
+			targetProxy = CDCF645B210BB6E200C294AD /* PBXContainerItemProxy */;
+		};
+		CDCF6467210BB6E200C294AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDCF6445210BB6E000C294AD /* Lyft Jukebox */;
+			targetProxy = CDCF6466210BB6E200C294AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDCF644D210BB6E000C294AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDCF644E210BB6E000C294AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDCF6452210BB6E100C294AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDCF6453210BB6E100C294AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDCF646C210BB6E200C294AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDCF646D210BB6E200C294AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDCF646F210BB6E200C294AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lyft Jukebox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ksikka.Lyft-Jukebox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDCF6470210BB6E200C294AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lyft Jukebox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ksikka.Lyft-Jukebox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDCF6472210BB6E200C294AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lyft JukeboxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ksikka.Lyft-JukeboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyft Jukebox.app/Lyft Jukebox";
+			};
+			name = Debug;
+		};
+		CDCF6473210BB6E200C294AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lyft JukeboxTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ksikka.Lyft-JukeboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyft Jukebox.app/Lyft Jukebox";
+			};
+			name = Release;
+		};
+		CDCF6475210BB6E200C294AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lyft JukeboxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ksikka.Lyft-JukeboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lyft Jukebox";
+			};
+			name = Debug;
+		};
+		CDCF6476210BB6E200C294AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Lyft JukeboxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ksikka.Lyft-JukeboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lyft Jukebox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDCF6441210BB6E000C294AD /* Build configuration list for PBXProject "Lyft Jukebox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCF646C210BB6E200C294AD /* Debug */,
+				CDCF646D210BB6E200C294AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCF646E210BB6E200C294AD /* Build configuration list for PBXNativeTarget "Lyft Jukebox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCF646F210BB6E200C294AD /* Debug */,
+				CDCF6470210BB6E200C294AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCF6471210BB6E200C294AD /* Build configuration list for PBXNativeTarget "Lyft JukeboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCF6472210BB6E200C294AD /* Debug */,
+				CDCF6473210BB6E200C294AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCF6474210BB6E200C294AD /* Build configuration list for PBXNativeTarget "Lyft JukeboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCF6475210BB6E200C294AD /* Debug */,
+				CDCF6476210BB6E200C294AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDCF643E210BB6E000C294AD /* Project object */;
+}
