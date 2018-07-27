@@ -11,7 +11,7 @@
 		998FF9BE1D3E54AC003E339B /* ConnectionStatusIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998FF9BD1D3E54AC003E339B /* ConnectionStatusIndicatorView.swift */; };
 		99A0FFE41D38F9B600A90453 /* PlaybackButtonGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A0FFE31D38F9B600A90453 /* PlaybackButtonGraphics.swift */; };
 		C84E6601210BD1750059619C /* SpotifyAppRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84E6600210BD1750059619C /* SpotifyAppRemote.framework */; };
-		C84E6603210BD59C0059619C /* testimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C84E6602210BD59B0059619C /* testimage.png */; };
+		C84E6605210BD7620059619C /* testimage.png in Resources */ = {isa = PBXBuildFile; fileRef = C84E6604210BD7610059619C /* testimage.png */; };
 		F4F973F01CAD60320036411D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F973EF1CAD60320036411D /* AppDelegate.swift */; };
 		F4F973F21CAD60320036411D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F973F11CAD60320036411D /* ViewController.swift */; };
 		F4F973F51CAD60320036411D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F973F31CAD60320036411D /* Main.storyboard */; };
@@ -27,7 +27,7 @@
 		998FF9BD1D3E54AC003E339B /* ConnectionStatusIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionStatusIndicatorView.swift; sourceTree = "<group>"; };
 		99A0FFE31D38F9B600A90453 /* PlaybackButtonGraphics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackButtonGraphics.swift; sourceTree = "<group>"; };
 		C84E6600210BD1750059619C /* SpotifyAppRemote.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyAppRemote.framework; path = NowPlayingView/SpotifyAppRemote.framework; sourceTree = "<group>"; };
-		C84E6602210BD59B0059619C /* testimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testimage.png; sourceTree = "<group>"; };
+		C84E6604210BD7610059619C /* testimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testimage.png; sourceTree = SOURCE_ROOT; };
 		F4F973EC1CAD60320036411D /* NowPlayingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NowPlayingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F973EF1CAD60320036411D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4F973F11CAD60320036411D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		F4F973EE1CAD60320036411D /* NowPlayingView */ = {
 			isa = PBXGroup;
 			children = (
-				C84E6602210BD59B0059619C /* testimage.png */,
+				C84E6604210BD7610059619C /* testimage.png */,
 				F4F973EF1CAD60320036411D /* AppDelegate.swift */,
 				F4F973F11CAD60320036411D /* ViewController.swift */,
 				F6EB42E01D2BB01100F57322 /* ContentItemCell.swift */,
@@ -169,9 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4F973FA1CAD60320036411D /* LaunchScreen.storyboard in Resources */,
+				C84E6605210BD7620059619C /* testimage.png in Resources */,
 				F4F974051CAD60C60036411D /* host.entitlements in Resources */,
 				F4F973F71CAD60320036411D /* Assets.xcassets in Resources */,
-				C84E6603210BD59C0059619C /* testimage.png in Resources */,
 				F4F973F51CAD60320036411D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
